@@ -15,6 +15,29 @@ A binary classifier designed to detect whether a person is wearing glasses. Buil
 📊 Model Architecture:
 The model leverages the pre-trained feature extractor of MobileNetV2, followed by custom Global Average Pooling and Dense layers for binary classification (Glasses / No Glasses).
 
+
+
+⚙️ Installation
+
+To set up the environment and install all dependencies, run the following commands:
+
+```bash
+ Create virtual environment
+   python -m venv venv
+
+ Activate virtual environment
+   On Windows:
+     venv\Scripts\activate
+   On macOS/Linux:
+     source venv/bin/activate
+
+ Install dependencies
+   pip install -r requirements.txt
+```
+
+
+    
+
 Results:
 
 
